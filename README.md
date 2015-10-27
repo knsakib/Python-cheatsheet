@@ -1,4 +1,4 @@
-Range (example:passing range into a function):
+#Range (example:passing range into a function):#
 The Python range() function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
 
 range(6) # => [0,1,2,3,4,5]

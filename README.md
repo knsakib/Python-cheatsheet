@@ -37,3 +37,8 @@ dice = randint(1, 6)
 In the above example, we first import the randint(low, high) function from the random module.
 Then, we generate either zero or one and store it in coin.
 Finally, we generate a number from one to six inclusive.
+
+
+-raw input
+number = int(raw_input("Enter a number: "))
+raw_input asks the user for input and returns it as a string. But we're going to want to use integers for our guesses! To do this, we'll wrap the raw_inputs with int()

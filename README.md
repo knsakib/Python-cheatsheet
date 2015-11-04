@@ -13,7 +13,7 @@ In all cases, the range() function returns a list of numbers from start up to (b
 
 If omitted, start defaults to zero and step defaults to one.
 
-- ** print ["O"] * 5 **  
+- **print ["O"] * 5**  
 will print out ['O', 'O', 'O', 'O', 'O']
 
 - ** Create a 5 x 5 grid initialized to all 'O's and store it in board. **
@@ -22,7 +22,7 @@ for x in range(0, 5):
     board.append(["O"]*5)
 
 
-- ** .join method**    
+- **.join method**    
 letters = ['a', 'b', 'c', 'd']
 print " ".join(letters)
 print "---".join(letters)
@@ -30,7 +30,7 @@ In the example above, we create a list called letters.
 Then, we print a b c d. The .join method uses the string to combine the items in the list.
 Finally, we print a---b---c---d. We are calling the .join function on the "---" string.
 
-- **r andom number generator **  
+- **random number generator**  
 from random import randint
 coin = randint(0, 1)
 dice = randint(1, 6)
@@ -38,6 +38,6 @@ In the above example, we first import the randint(low, high) function from the r
 Then, we generate either zero or one and store it in coin.
 Finally, we generate a number from one to six inclusive.
 
-- ** raw input **  
+- **raw input**  
 number = int(raw_input("Enter a number: "))
 raw_input asks the user for input and returns it as a string. But we're going to want to use integers for our guesses! To do this, we'll wrap the raw_inputs with int()

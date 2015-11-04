@@ -16,7 +16,7 @@ If omitted, start defaults to zero and step defaults to one.
 - **print ["O"] * 5**  
 will print out ['O', 'O', 'O', 'O', 'O']
 
-- ** Create a 5 x 5 grid initialized to all 'O's and store it in board. **
+- **Create a 5 x 5 grid initialized to all 'O's and store it in board.**
 board=[]
 for x in range(0, 5):
     board.append(["O"]*5)
